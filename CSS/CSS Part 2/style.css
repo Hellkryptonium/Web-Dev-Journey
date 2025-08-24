@@ -61,3 +61,47 @@ input[type="password"] {
 div[id="myId"] p {
     color: green;
 }
+
+/* psuedo class state property */
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+h3:hover {
+    text-decoration: overline;
+}
+
+button:active {
+    background-color: hotpink;
+    color: black;
+}
+
+p:active {
+    font-weight: bold;
+    color: green;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+.div:nth-of-type(3n) {
+    background-color: blanchedalmond;
+}
+
+/* Psuedo Elements */
+
+h1::first-letter {
+    color: green;
+}
+
+p::first-line {
+    color: purple;
+}
+
+p::selection {
+    background-color: lime;
+}
