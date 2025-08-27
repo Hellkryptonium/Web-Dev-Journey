@@ -1,3 +1,8 @@
+h3 {
+    background-color: antiquewhite !important;
+}
+
+
 * {
     font-family: 'Courier New';
 }
@@ -5,7 +10,7 @@
 h3,h1 { 
     color: #b92b27;
 }
-
+/* id is strong bc specificity it wont' change */
 #login {
     background-color: white;
 }
@@ -104,4 +109,25 @@ p::first-line {
 
 p::selection {
     background-color: lime;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+h3 {
+    background-color: blue;
+}
+
+/* selector specificity needs to be calculated for similar class 
+1. id>class>element
+2. more selectors > less selectors
+3. if specifity some => cascading what comes later
+
+
+1. In line matters more because it's directly there with html
+*/
+
+input {
+    background-color: inherit;
 }
