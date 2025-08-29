@@ -1,0 +1,30 @@
+#outer {
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    background-color: pink;
+}
+
+#inner {
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    font-size: 2em;
+    padding: 2em; /* uses the parent's font size */
+}
+
+button {
+    font-size: 50px;
+    border-radius: 15px;
+    border: 5px solid green;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+section {
+    font-size: 15px;
+}
+
+div {
+    font-size: 2rem; /*  prperty is set on root element */
+}

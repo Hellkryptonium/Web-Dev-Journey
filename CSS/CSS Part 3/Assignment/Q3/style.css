@@ -1,0 +1,9 @@
+ul {
+  list-style-type: disc; 
+  list-style-position: inside; /* bullets show inline */
+}
+
+li {
+  display: inline;
+  margin-right: 15px;
+}
