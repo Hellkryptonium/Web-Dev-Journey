@@ -1,0 +1,20 @@
+#container {
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border: 2px solid cyan;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+#container div {
+    height: 50px;
+    width: 80px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
